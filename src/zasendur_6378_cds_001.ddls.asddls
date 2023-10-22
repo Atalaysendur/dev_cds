@@ -22,6 +22,6 @@ define view ZASENDUR_6378_CDS_001
     ekpo.meins,
     lfa1.lifnr,
     lfa1.adrnr,
-    cast( concat_with_space( lfa1.stras , lfa1.mcod3, 1 ) as abap.char( 61 )  ) as satici_adresi
+    concat_with_space( lfa1.stras , lfa1.mcod3, 1 ) as satici_adresi
     
 }
